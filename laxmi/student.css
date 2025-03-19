@@ -1,0 +1,16 @@
+img{
+    border-radius: 50%;
+    height: 200px;
+}
+.img-square{
+    border-radius:10% ;
+    height: 200px;
+}
+button{
+    background-color: skyblue;
+    padding: 30px;
+    text-align: center;
+    width: 40%;
+    color: black;
+    margin: 8px;
+}
