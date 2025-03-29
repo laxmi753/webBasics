@@ -10,7 +10,7 @@ titleH1.style.fontFamily= "Helvetic";
 //numbersDiv.innerHTML =numbersHTML;
 function printNumbers(){
  let upto = document.getElementById("upperRange").value
- titleH1.innerText="Numbers from 1 -" + upto;
+ titleH1.innerText="Numbers from 1 to"+upto;
 
  let numbersDiv = document.getElementById("numbers");
 let numbersHTML="";
