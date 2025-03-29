@@ -1,0 +1,15 @@
+D:\webBasics\BackendBasics\ConsoleApp\bin\Debug\net9.0\ConsoleApp.exe
+D:\webBasics\BackendBasics\ConsoleApp\bin\Debug\net9.0\ConsoleApp.deps.json
+D:\webBasics\BackendBasics\ConsoleApp\bin\Debug\net9.0\ConsoleApp.runtimeconfig.json
+D:\webBasics\BackendBasics\ConsoleApp\bin\Debug\net9.0\ConsoleApp.dll
+D:\webBasics\BackendBasics\ConsoleApp\bin\Debug\net9.0\ConsoleApp.pdb
+D:\webBasics\BackendBasics\ConsoleApp\obj\Debug\net9.0\ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\webBasics\BackendBasics\ConsoleApp\obj\Debug\net9.0\ConsoleApp.AssemblyInfoInputs.cache
+D:\webBasics\BackendBasics\ConsoleApp\obj\Debug\net9.0\ConsoleApp.AssemblyInfo.cs
+D:\webBasics\BackendBasics\ConsoleApp\obj\Debug\net9.0\ConsoleApp.csproj.CoreCompileInputs.cache
+D:\webBasics\BackendBasics\ConsoleApp\obj\Debug\net9.0\ConsoleApp.sourcelink.json
+D:\webBasics\BackendBasics\ConsoleApp\obj\Debug\net9.0\ConsoleApp.dll
+D:\webBasics\BackendBasics\ConsoleApp\obj\Debug\net9.0\refint\ConsoleApp.dll
+D:\webBasics\BackendBasics\ConsoleApp\obj\Debug\net9.0\ConsoleApp.pdb
+D:\webBasics\BackendBasics\ConsoleApp\obj\Debug\net9.0\ConsoleApp.genruntimeconfig.cache
+D:\webBasics\BackendBasics\ConsoleApp\obj\Debug\net9.0\ref\ConsoleApp.dll
