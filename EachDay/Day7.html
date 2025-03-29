@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day7</title>
+</head>
+
+<body>
+    <h2>Welcome to Day7</h2>
+    <p>Here we learn about C# basics program and looping system.</p>
+    <ul>
+        <li>First of all we simply print age</li>
+
+        <pre>
+        <code>
+byte age=14;
+Console.Writeline(age);
+        </code>
+    </pre>
+        <li>Then we take input from user and print this letter in uppercase</li>
+        <pre>
+        <code>
+Console.WriteLine("Your full name:");
+string? fullName = Console.ReadLine();
+string nameInupper=fullName.ToUpper();
+Console.WriteLine(nameInupper);
+         </code>
+        
+    </pre>
+        <li>We use the string interpolation</li>
+        <pre>
+        <code>
+var firstFriend ="Maria";
+var secondFriend ="sage";
+Console.WriteLine($"My friends are {firstfriend}  and {secondfriend}");
+        </code>
+    </pre>
+        <li>After this we use branches and loops.</li>
+        <pre>
+        <code>
+var x = 46 % 5;//modulo operator
+var y = 2342553;
+if(y % 2== 0)
+{
+    Console.WriteLine($"{y} is even");
+}
+     else
+   {
+     Console.WriteLine($"{y} is odd");
+   }
+        </code>
+    </pre>
+        <li>We learn how to make calculation and how to print numbers by using c#.</li>
+        <pre>
+            <code>
+var r = 23456;
+int divider = 13;
+//find if r is perfectly divisible by 13
+var result = r % 13 == 0 ? $"{r} is divisible by 13" : $"{r} is not divisible by 13";
+Console.WriteLine(result);
+<p>Also next Example:The number can be divided multiple times and verify
+                whether it remain perfectly divisible or not: </p>
+var quotient = r / divider;
+var result1 = r % 13 == 0 
+? $"{divider} can divide{r},{quotient} times and it's perfectly divisible by it." 
+: $"{divider} can divide{r},{quotient} times and it's  not perfectly divisible by it." ;
+Console.WriteLine(result1);
+            </code>
+        </pre>
+        <li>Here is the example to print numbers from 1 to 100. </li>
+        <pre>
+            <code>
+for(int i = 1; i <=100; i++)
+ {
+ if(i % 2 == 0)
+ Console.Write($"{i} ");
+    }
+ <p>Next Example:</p>
+ //print all numbers between 1-1000 which are divisible by 5 and 7
+for(int i = 1; i <=1000; i++)
+ {
+if(i % 5 == 0 & i % 7 == 0)
+Console.Write($"{i} ");
+} 
+
+           </code>
+           
+           </pre>
+    </ul>
+
+</body>
+
+</html>
