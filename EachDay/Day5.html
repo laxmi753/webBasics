@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day5</title>
+</head>
+
+<body>
+    <h1>Welcome to Day5:</h1>
+    <h2>What is Javascript?</h2>
+    <p>JavaScript is a versatile programming language used primarily for building interactive and dynamic websites.
+        It allows developers to add functionality to web pages, such as animations, form validations, dynamic content
+        updates,
+        and much more.</p>
+    <h2>Why JavaScript is introduced?</h2>
+    <p>JavaScript was introduced in 1995 by Brendan Eich to make websites more interactive and engaging.
+        At the time, web pages were mostly static, meaning they could only display content without allowing users
+        to interact with them beyond clicking links.Here's why JavaScript was introduced:</p>
+    <ul>
+        <li> To allow web pages to change in real time, like showing updated information without refreshing the page.
+        </li>
+        <li> To enable features like forms that validate user input, dropdown menus, and animated elements.</li>
+        <li> To run directly in the browser, so users wouldn't need to install additional software.</li>
+        <li> To make it simpler for developers to add interactive features with less coding effort.</li>
+    </ul>
+    <h3>Here we print numbers from 1-500:</h3>
+    <pre>
+        let titleH1= document.getElementById("title");
+        titleH1.style.color= "Blue";
+        titleH1.style.fontFamily= "Helvetic";
+
+        titleH1.innerText="Numbers from 1 -500";
+
+       let numbersDiv = document.getElementById("numbers");
+       let numbersHTML="";
+       for(i=1; i<=500;i++){
+       numbersHTML = numbersHTML +"&lt;h2&gt; class='badge text-bg-warning mr-2'>"+ i + "&lt;/h2&gt;";
+      }
+      numbersDiv.innerHTML =numbersHTML;
+     </pre>
+     <h3>Here we print numbers from 1 to upto:</h3>
+     <pre>
+        function printNumbers(){
+            let upto = document.getElementById("upperRange").value
+            titleH1.innerText="Numbers from 1 to"+upto;
+           
+            let numbersDiv = document.getElementById("numbers");
+           let numbersHTML="";
+           for(i=1; i<=upto;i++){
+            numbersHTML = numbersHTML +"&lt;h2&gt;class='badge text-bg-warning mr-2'>"+ i + "&lt;/h2&gt;";
+           }
+           numbersDiv.innerHTML =numbersHTML;
+           }
+     </pre>
+
+</body>
+
+</html>
